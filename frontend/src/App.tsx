@@ -1,11 +1,12 @@
 import React from 'react';
+import RegisterUser from "./components/usermenu/RegisterUser";
+import LoginUser from "./components/usermenu/LoginUser";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>Knowledge Base</h1>
-      </header>
+    <div>
+        <RegisterUser />
+        <LoginUser />
     </div>
   );
 }
